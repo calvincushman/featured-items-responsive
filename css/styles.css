@@ -36,6 +36,47 @@ h4 {
 p {
   background-color: lightgreen;
 }
+@media screen and (min-width:801px) {
+
+  .content {
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+  }
+
+  #header-1 {
+    width: 80%;
+    margin-left: 7.5%;
+    margin-top: 40px;
+  }
+
+  #header-2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3 {
+    width: 20%;
+    margin-left: 4%;
+  }
+
+  ul {
+    width: 22%;
+    float: right;
+    margin-top: -37px;
+  }
+}
+
+
+
+
+
 
 @media screen and (max-width:800px) and (min-width:401px) {
 
@@ -71,6 +112,7 @@ p {
   .image {
     width: 100%;
     height: 350px;
+    min-height: 100px;
   }
 
   h4 {
